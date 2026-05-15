@@ -1,4 +1,10 @@
-cada horario es una matriz de días x horas
+Cada horario puede verse como una lista de grafos no dirigidos, de manera que cada día tiene un grafo ponderado asignado.
+Cada vértice es una clase y las aristas que cada vértice se pondera con las horas que se paran cada clase.
+De manera que:
+Lunes {(clase de 8:00am a 10:00pm) <--(peso:4)--> (clase de 2:00pm a 3:00pm) <--(peso:1)--> (clase de 4:00pm a 6:00pm}
+
+
+\-----------------------------------------------------------------------------------------------------------------------------------------
 
 cada materia tiene n grupos de clase (C7B, C7A... etc.) y cada grupo
 
@@ -20,7 +26,7 @@ al formarse un horario se cumple que:
 
 &#x09;superponen entre ellas.
 
-\---------------------------------------------------------------------
+\-----------------------------------------------------------------------------------------------------------------------------------------
 
 se leería entonces de un documento externo:
 
@@ -32,7 +38,7 @@ se leería entonces de un documento externo:
 
 * el horario que tiene el usuario. 
 
-\---------------------------------------------------------------------
+\-----------------------------------------------------------------------------------------------------------------------------------------
 
 Posteriormente: 
 
