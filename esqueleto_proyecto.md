@@ -21,7 +21,7 @@ Cada materia tiene n grupos de clase (C7B, C7A... etc.) y cada grupo tiene clase
 &#x20;
 
 al formarse un horario valido se cumple que:
-* &#x09;cada estudiante tiene registradas las horas de clase de cada materia
+* &#x09;cada estudiante tiene registradas las horas de clase de cada materia\
 &#x09;que tiene exactamente 1 grupo de cada materia matriculada
 &#x09;que matriculo en las correspondientes horas de cada grupo de clase
 &#x20;
