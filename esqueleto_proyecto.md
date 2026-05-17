@@ -48,6 +48,18 @@ Posteriormente:
 * se computan los cambios necesarios de grupos de clase para tener el horario deseado.
 * se imprime en pantalla los cambios requeridos o la imposibilidad de cumplir la condición.
 
+\----------------------------------------------------------------------------------------------------------------------------------
+
+En general se necesita:
+* Clases y Sus Atributos
+* Lector de Archivos
+* Grafo
+* Calculadora de pesos
+* Algoritmo de Optimizacion
+* Actualizacion Dinamica
+* Impresion(Main)
+
+
 &#x20;
 
 &#x20;
