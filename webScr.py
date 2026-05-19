@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 geckodriver_autoinstaller.install()
-//Coded by Branlol
+#Coded by Branlol
 options = webdriver.FirefoxOptions()
 options.set_preference("dom.webdriver.enabled", False)
 driver = webdriver.Firefox(options=options)
@@ -101,4 +101,4 @@ with open(nombre_archivo, "w", encoding="utf-8") as f:
     for r in results:
         f.write(",".join(r) + "\n")
 
-print(f"\ Guardado en {nombre_archivo}")
+print(" Guardado en {nombre_archivo}")
